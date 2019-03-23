@@ -61,6 +61,8 @@ def run
         play(songs)
         puts "Please enter a command"
         user_response = gets.chomp
+      else
+        puts "Invalid input, please try again"
         
         
   
