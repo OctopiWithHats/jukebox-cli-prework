@@ -63,6 +63,7 @@ def run
         user_response = gets.chomp
       else
         puts "Invalid input, please try again"
-        
+        user_response = gets.chomp
+      end
         
   
