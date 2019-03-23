@@ -50,4 +50,7 @@ def run
   while user_response != "exit"
     case user_response
       when "help"
+        help
+        puts "Please enter a command"
+        user_response = gets.chomp
   
